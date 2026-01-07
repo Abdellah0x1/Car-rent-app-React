@@ -1,2 +1,2 @@
 # Car-rent-app-React
-A front-end app for car renting buit using react js 
+A front-end app for car renting built using react js 
