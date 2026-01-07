@@ -1,0 +1,14 @@
+.benifit {
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    gap: 20px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    flex: 1;
+}
+
+
+

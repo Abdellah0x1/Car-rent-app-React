@@ -1,0 +1,50 @@
+.featured {
+    padding: 20px 80px;
+
+}
+
+@media (max-width: 768px) {
+    .featured {
+        padding: 0px 20px;
+    }
+    
+}
+
+.featured h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.cars {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+    gap: 20px;
+    justify-content: center;
+    
+}
+
+
+
+
+.link {
+    text-align: center;
+    margin: 30px auto;
+    width: fit-content;
+    text-decoration: none;
+    border: 1px solid #333;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #333;
+    transition: all 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.link:hover {
+    background-color: #333;
+    color: white;
+}
+

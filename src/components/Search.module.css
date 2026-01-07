@@ -1,0 +1,60 @@
+.container {
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    color: #9d9c9c;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 100vh;
+}
+
+.filter {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.container input,select {
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    
+}
+
+.PriceRange {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+}
+
+.PriceRange input {
+    max-width: 50%;
+}
+
+.pillContainer {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.pillContainer button {
+    padding: 8px 16px;
+    border-radius: 50px;
+    border: 1px solid #ccc;
+    background-color: white;
+    color: #555;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 0.9rem;
+}
+
+.pillContainer button:hover {
+    background-color: #f0f0f0;
+}
+
+
+.pillContainer .activePill {
+
+    color: #007bff;
+    border-color: #007bff;
+}

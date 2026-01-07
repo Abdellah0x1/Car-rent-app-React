@@ -1,0 +1,29 @@
+import { BrowserRouter, Routes, Route} from "react-router-dom"
+import Home from "./pages/Home"
+import Register from "./pages/Register"
+import Login from "./pages/Login"
+import NotFound from "./pages/NotFound"
+import Fleet from "./pages/Fleet"
+import About from "./pages/About"
+import CarDetails from "./components/CarDetails"
+
+function App() {
+
+
+  return <BrowserRouter>
+  <Routes>
+    <Route path="/" element={<Home/>}/>
+    <Route path="login" element={<Login/>}/>
+    <Route path="register" element={<Register/>}/>
+    <Route path="fleet" element={<Fleet/>}/>
+    <Route path="fleet/:id" element={<CarDetails/>}/>
+    <Route path="about" element={<About/>}/>
+    <Route path="*" element={<NotFound/>}/>
+  </Routes>
+  </BrowserRouter>
+}
+
+
+
+
+export default App
